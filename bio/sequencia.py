@@ -17,3 +17,6 @@ class Sequencia:
 
     def __eq__(self, outra_sequencia):
         return str(self) == str(outra_sequencia)
+
+    def __getitem__(self, index):
+        return self.sequencia.__getitem__(index)
