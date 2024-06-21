@@ -1,1 +1,1 @@
-print("Olá")
+print("Tchau")
